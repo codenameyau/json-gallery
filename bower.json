@@ -21,7 +21,9 @@
     "bower_components",
     "test",
     "tests",
-    "src"
+    "src",
+    "gulpfile.js",
+    "package.json"
   ],
    "dependencies": {
       "jquery": ">=1.10.2",
