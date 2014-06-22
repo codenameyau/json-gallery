@@ -9,30 +9,32 @@ It's great for photographs, graphic designs, and web portfolios.
 - [JSON Gallery is used for my portfolio](https://codenameyau.github.io/)
 - An basic demo is included in the `src/` directory
 
+##Installation and Setup
 
-##Required Dependencies
+###Required Dependencies
 - jQuery 1.10+ (JS)
 - bootstrap 3.0.3+ (CSS + JS)
 
+####Install with Bower
+Run: `bower install json-gallery`
 
-##Installation and Setup
-1. Download or clone source and `cd dist`
+####Manual Installation from build
+Move the files in `build` into your project's `/assets` folder.
 
-2. Move the files in `build` into your project's `/assets` folder.
-
-3. In your html `head`, include the following:
+###Setup
+* In your html `head`, include the following:
 
     ```html
     <link href="assets/css/json-gallery.min.css" rel="stylesheet">
     ```
 
-4. In your JavaScript source, include:
+* In your JavaScript source, include:
 
     ```html
     <script src="assets/js/json-gallery.min.js"></script>
     ```
 
-5. Insert the following code in your html to create a gallery:
+* Insert the following code in your html to create a gallery:
 
     ```html
     <div class="container">
@@ -40,13 +42,13 @@ It's great for photographs, graphic designs, and web portfolios.
     </div>
     ```
 
-6. Create a JSON file for your gallery, ex:
+* Create a JSON file for your gallery, ex:
 
     ```
     $ touch assets/data/portfolio-gallery.json
     ```
 
-7. Edit the JSON file, following this format:
+* Edit the JSON file, following this format:
 
     ```json
     {
@@ -77,7 +79,7 @@ It's great for photographs, graphic designs, and web portfolios.
     }
     ```
 
-8. Lastly in your JS main script, initialize the gallery with your JSON file:
+* Lastly in your JS main script, initialize the gallery with your JSON file:
 
     ```javascript
     $(function() {
