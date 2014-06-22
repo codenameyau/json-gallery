@@ -18,7 +18,8 @@ var rimraf = require('rimraf');
 // Paths
 var PATHS = {
   script : 'src/assets/js/json-gallery.js',
-  style : 'src/assets/css/json-gallery.css',
+  stylesheet : 'src/assets/css/json-gallery.css',
+  output : 'build',
 };
 
 // Task: clean 'build'
@@ -26,8 +27,21 @@ gulp.task('clean', function(cb) {
   rimraf('build/', cb);
 });
 
-// Task: Uglify 'json-gallery.js'
-gulp.task('script', ['clean'], function() {
-  console.log(PATHS.script);
+// Task: uglify 'json-gallery.js'
+gulp.task('uglify js', ['clean'], function() {
+  gulp.src(PATHS.script)
+    .pipe(uglify())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest(PATHS.output));
 });
 
+// Task: minify 'json-gallery.css'
+gulp.task('minify css', ['clean'], function() {
+  gulp.src(PATHS.stylesheet)
+    .pipe(cssmin())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest(PATHS.output));
+});
+
+// Task: Run and generate 'build/'
+gulp.task('default', ['clean', 'uglify js', 'minify css']);
