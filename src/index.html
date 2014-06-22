@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JSON Image Gallery">
+
+    <title>JSON Gallery</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <!-- Add custom CSS here -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/json-gallery.css" rel="stylesheet">
+    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+  </head>
+
+  <body>
+
+    <!-- Demo -->
+    <div id="sample-portfolio" class="header portfolio bg-demo">
+      <div class="container vert-text text-white">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <h5>
+              Stock images from <a href="http://www.morguefile.com/">morgeFile</a>
+            </h5>
+          </div>
+        </div>
+
+        <!-- START JSON-GALLERY -->
+        <div id="json-gallery" class="container"></div>
+        <!-- END JSON-GALLERY -->
+
+      <br>
+      <a href="#view-json" class="btn btn-default btn-lg">View JSON</a>
+      </div>
+    </div>
+    <!-- End Demo -->
+
+    <!-- View JSON -->
+    <div id="view-json" class="header bg-demo">
+      <div class="vert-text text-white">
+        <div class="container">
+          <div class="pad-up code-block">
+            <pre class="pre-scrollable" id="json-output"></pre>
+          </div>
+          <br>
+          <a href="https://github.com/codenameyau/json-gallery" target="_blank" class="btn btn-primary btn-lg">Source &amp; Instructions</a>
+        </div>
+      </div>
+    </div>
+    <!-- End JSON -->
+
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="assets/js/json-gallery.js"></script>
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>
