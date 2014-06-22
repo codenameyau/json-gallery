@@ -2,12 +2,11 @@ json-gallery
 ======================
 
 ##Description
-JSON Gallery lets you easily set up and manage an image gallery with JSON.
+JSON Gallery lets you easily set up and manage a responsive image gallery with JSON.
 It's great for photographs, graphic designs, and web portfolios.
 
-
-##Live Demo
-- [My Portfolio](https://codenameyau.github.io/#portfolio)
+####Live Demo
+- [JSON Gallery is used in my portfolio](https://codenameyau.github.io/#portfolio)
 
 
 ##Required Dependencies
@@ -82,7 +81,7 @@ It's great for photographs, graphic designs, and web portfolios.
     ```javascript
     $(function() {
         // Args: ('filename', thumbnailSize, numCols, colOffset)
-        jsonGallery('assets/data/portfolio-gallery.json', 4, 2, 2);
+        jsonGallery('assets/data/portfolio-gallery.json', 5, 2, 1);
     });
     ```
 
@@ -90,3 +89,6 @@ It's great for photographs, graphic designs, and web portfolios.
 How do I use single and double quotes in JSON?
 
 Check out Installation step 7. It has examples of both cases.
+
+##Future Tasks
+* Add parameters to change height and width of thumbnails

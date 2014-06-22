@@ -1,0 +1,65 @@
+{
+  "gallery" : [
+
+    {
+      "title" : "Spring 2013",
+      "link" : "#sample-portfolio",
+      "images" : [
+        {
+          "image" : "assets/img/spring-2013/spring-13-1.jpg",
+          "caption" : "\"Caption with double quotes\""
+        },
+        {
+          "image" : "assets/img/spring-2013/spring-13-2.jpg",
+          "caption" : "Both 'single' and \"double\" quotes"
+        }
+      ]
+    },
+
+    {
+      "title" : "Summer 2013",
+      "link" : "#sample-portfolio",
+      "images" : [
+        {
+          "image" : "assets/img/summer-2013/summer-13-1.jpg",
+          "caption" : "Sweet Summer Treat"
+        },
+        {
+          "image" : "assets/img/summer-2013/summer-13-2.jpg",
+          "caption" : "Evening fireworks"
+        }
+      ]
+    },
+
+    {
+      "title" : "Fall 2013",
+      "link" : "#sample-portfolio",
+      "images" : [
+        {
+          "image" : "assets/img/fall-2013/fall-13-1.jpg",
+          "caption" : "View of the Autumn sky"
+        },
+        {
+          "image" : "assets/img/fall-2013/fall-13-2.jpg",
+          "caption" : "Calm Lake"
+        }
+      ]
+    },
+
+    {
+      "title" : "Winter 2013",
+      "link" : "#sample-portfolio",
+      "images" : [
+        {
+          "image" : "assets/img/winter-2013/winter-13-1.jpg",
+          "caption" : "Christmas Decoration Lights"
+        },
+        {
+          "image" : "assets/img/winter-2013/winter-13-2.jpg",
+          "caption" : "Snow field"
+        }
+      ]
+    }
+
+  ]
+}

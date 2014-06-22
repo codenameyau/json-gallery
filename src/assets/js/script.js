@@ -1,17 +1,20 @@
+/* global $ */
+'use strict';
+
 $(function() {
-    var jsonSource = 'assets/data/portfolio-gallery.json';
+  var jsonSource = 'assets/data/portfolio-gallery.json';
 
-    // jsonGallery('source', thumbnailSize, numCols, colOffset)
-    jsonGallery(jsonSource, 4, 2, 2);
+  // Initialise json gallery
+  jsonGallery(jsonSource);
 
-    // Pretty print json
-    outputJson(jsonSource, '#json-output');
+  // Pretty print json
+  outputJson(jsonSource, '#json-output');
 });
 
 
 function outputJson(source, selector) {
-    $.getJSON(source, function(data) {
-        var jsonOutput = JSON.stringify(data, undefined, 2);
-        $(selector).html(jsonOutput);
-    });
+  $.getJSON(source, function(data) {
+    var jsonOutput = JSON.stringify(data, undefined, 2);
+    $(selector).html(jsonOutput);
+  });
 }
