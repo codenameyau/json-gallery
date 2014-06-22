@@ -18,18 +18,18 @@ It's great for photographs, graphic designs, and web portfolios.
 ##Installation and Setup
 1. Download or clone source and `cd dist`
 
-2. Move the files in `dist` into your project's `/assets` folder.
+2. Move the files in `build` into your project's `/assets` folder.
 
 3. In your html `head`, include the following:
 
     ```html
-    <link href="assets/css/json-gallery.css" rel="stylesheet">
+    <link href="assets/css/json-gallery.min.css" rel="stylesheet">
     ```
 
 4. In your JavaScript source, include:
 
     ```html
-    <script src="assets/js/json-gallery.js"></script>
+    <script src="assets/js/json-gallery.min.js"></script>
     ```
 
 5. Insert the following code in your html to create a gallery:
