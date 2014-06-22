@@ -1,0 +1,31 @@
+{
+  "name": "json-gallery",
+  "version": "0.0.1",
+  "description": "HTML image gallery managed with JSON",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.8.1",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1",
+    "rimraf": "^2.2.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codenameyau/json-gallery.git"
+  },
+  "keywords": [
+    "image",
+    "gallery",
+    "json"
+  ],
+  "author": "Jorge Yau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codenameyau/json-gallery/issues"
+  },
+  "homepage": "https://github.com/codenameyau/json-gallery"
+}
