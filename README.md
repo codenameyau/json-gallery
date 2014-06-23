@@ -6,36 +6,36 @@ JSON Gallery lets you easily set up and manage a responsive image gallery with J
 
 ####Live Demo
 - [JSON Gallery is used for my portfolio](https://codenameyau.github.io/)
-- An basic demo is included in the `src/` directory
+- A basic demo is included in the `src/` directory
 
 
 ##Installation and Setup
 
 ###Required Dependencies
-- jQuery 1.10+ (JS)
-- bootstrap 3.0.3+ (CSS + JS)
+- jQuery >= 1.10+ (JS)
+- bootstrap >= 3.0.3 (CSS + JS)
 
 ####Install with Bower
-Run: `bower install json-gallery`
+Run: `bower install json-gallery --save`
 
 ####Manual Installation from build
-Move the files in `build` into your project's `assets/` folder.
+Copy the files in `build` into your project's `assets/` folder.
 
 
 ###Setup
-* In your html `head`, include the following:
+* In your html `head`, include the link to the css file, ex:
 
     ```html
     <link href="assets/css/json-gallery.min.css" rel="stylesheet">
     ```
 
-* In your JavaScript source, include:
+* In your html, include the js file, ex:
 
     ```html
     <script src="assets/js/json-gallery.min.js"></script>
     ```
 
-* Insert the following code in your html to create a gallery:
+* Insert the following snippet in your html to create a gallery:
 
     ```html
     <div class="container">
@@ -46,10 +46,10 @@ Move the files in `build` into your project's `assets/` folder.
 * Create a JSON file for your gallery, ex:
 
     ```
-    $ touch assets/data/portfolio-gallery.json
+    $ vim assets/data/portfolio-gallery.json
     ```
 
-* Edit the JSON file, following this format:
+* Edit the JSON file while following this format (example in `src/assets/data`):
 
     ```json
     {
