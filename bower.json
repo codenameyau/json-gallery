@@ -1,6 +1,6 @@
 {
   "name": "json-gallery",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "homepage": "https://github.com/codenameyau/json-gallery",
   "authors": [
     "Jorge Yau <jyau01@citymail.cuny.edu>"
@@ -23,7 +23,8 @@
     "src",
     "gulpfile.js",
     "*.json",
-    "*.md"
+    "*.md",
+    ".*"
   ],
    "dependencies": {
       "jquery": ">=1.10.2",
