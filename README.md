@@ -3,11 +3,11 @@ json-gallery
 
 ##Description
 JSON Gallery lets you easily set up and manage a responsive image gallery with JSON.
-It's great for photographs, graphic designs, and web portfolios.
 
 ####Live Demo
 - [JSON Gallery is used for my portfolio](https://codenameyau.github.io/)
 - An basic demo is included in the `src/` directory
+
 
 ##Installation and Setup
 
@@ -19,7 +19,7 @@ It's great for photographs, graphic designs, and web portfolios.
 Run: `bower install json-gallery`
 
 ####Manual Installation from build
-Move the files in `build` into your project's `/assets` folder.
+Move the files in `build` into your project's `assets/` folder.
 
 ###Setup
 * In your html `head`, include the following:
@@ -79,7 +79,7 @@ Move the files in `build` into your project's `/assets` folder.
     }
     ```
 
-* Lastly in your JS main script, initialize the gallery with your JSON file:
+* Lastly in your main JS script file, initialize the gallery:
 
     ```javascript
     $(function() {
@@ -92,6 +92,7 @@ Move the files in `build` into your project's `/assets` folder.
 How do I use single and double quotes in JSON?
 
 Check out Installation step 7. It has examples of both cases.
+
 
 ##Future Tasks
 * Add parameters to change height and width of thumbnails
