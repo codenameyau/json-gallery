@@ -16,14 +16,12 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "*.*",
     "node_modules",
     "bower_components",
     "test",
     "tests",
-    "src",
-    "gulpfile.js",
-    "package.json"
+    "src"
   ],
    "dependencies": {
       "jquery": ">=1.10.2",
