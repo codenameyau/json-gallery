@@ -21,6 +21,7 @@ Run: `bower install json-gallery`
 ####Manual Installation from build
 Move the files in `build` into your project's `assets/` folder.
 
+
 ###Setup
 * In your html `head`, include the following:
 
@@ -95,4 +96,4 @@ Check out Installation step 7. It has examples of both cases.
 
 
 ##Future Tasks
-* Add parameters to change height and width of thumbnails
+* Add initialization parameters to change height and width of thumbnails

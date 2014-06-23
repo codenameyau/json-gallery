@@ -14,10 +14,7 @@ footer a {color: #fafafa}
 /* Typography */
 .text-white {color: #fafafa;}
 .text-dark {color: #3c3c3c;}
-
 h1, h2, h3 { letter-spacing: 2px;}
-.img-thumbnail-title a {color: #cccccc;}
-.img-thumbnail-title a:hover {color: #fafafa;}
 
 
 /* Background images */
@@ -54,25 +51,16 @@ h1, h2, h3 { letter-spacing: 2px;}
 }
 
 
-/* Intro */
-.intro {
+/* Portfolio */
+.portfolio {
   padding: 50px 0;
 }
 
-
-/* Portfolio */
-.portfolio {
-  padding: 20px 0;
-}
-
 .portfolio-item {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
-.img-portfolio {
-  margin: 0 auto;
-}
-
+/* JSON block */
 .code-block {
   width: 750px;
   margin: auto;
@@ -82,6 +70,7 @@ h1, h2, h3 { letter-spacing: 2px;}
   max-height: 450px;
   text-align: left;
 }
+
 
 @media(max-width: 920px) {
   .code-block {width: 100%; }

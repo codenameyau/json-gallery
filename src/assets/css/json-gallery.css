@@ -4,15 +4,15 @@
  * codenameyau.github.io
  */
 
-/* Change default carousel size */
-.modal-dialog {width: 980px;}
-
-/* Change thumbnail default width */
+/* Thumbnail preview size */
 #json-gallery .img-thumbnail {height: 280px; width: 455px;}
 
-/* Gallery thumbnail */
+/* Slideshow carousel width */
+.modal-dialog {width: 1000px; top: 20px;}
+
+/* Thumbnail settings */
 .gallery-item {
-    margin: 15px 0px;
+    margin: 15px 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -44,7 +44,7 @@
     border-radius: 0;
     box-shadow: 5px 5px 5px #151515;
     padding: 0;
-    border: 0px solid rgba(0,0,0,.85);
+    border: 0 solid rgba(0,0,0,.85);
 }
 
 /* Override bootstrap carousel */
@@ -58,9 +58,10 @@
     width: inherit;
     height: 20px;
 }
+
 /* Change carousel background */
 #json-gallery-modal {background: rgba(0,0,0,.80);}
-#json-gallery-modal .modal-body {padding: 0px; background: rgba(0,0,0,.90);}
+#json-gallery-modal .modal-body {padding: 0; background: rgba(0,0,0,.90);}
 #json-gallery-modal img {margin: auto;}
 .carousel-indicators li {background: rgba(0,0,0,.3);}
 .carousel-indicators .active {background: rgba(255,255,255,.85);}
@@ -71,6 +72,7 @@
     width: 10px;
 }
 
+/* Carousel circle and arrow controls */
 .carousel-control {width: 8%; color: rgba(255,255,255,.35);}
 .carousel-control.left {
     background-image: linear-gradient(to right,rgba(0,0,0,0.1) 0,rgba(0,0,0,0.0001) 100%)
@@ -80,28 +82,26 @@
 }
 .carousel-control .glyphicon-chevron-left {left: 25%;}
 .carousel-control .glyphicon-chevron-right {right: 25%;}
-.carousel-caption {bottom: 0px; padding: 10px; color: #d1d1d1; letter-spacing: 1px;}
+.carousel-caption {bottom: 0; padding: 10px; color: #d1d1d1; letter-spacing: 1px;}
 .carousel-footer-bg {
     background: rgba(0,0,0,.8);
     height: 60px;
     width: 100%;
     position: fixed;
     bottom: 0;
-    left: 0px;
+    left: 0;
 }
 
-/* JSON Modal Gallery */
+/* JSON popup gallery */
 .json-gallery-header {
     border: 0;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
-
 .json-gallery-title {
     color: #3c3c3c;
     border: 0;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
-
 .json-gallery-caption {
     text-align: center;
     background: rgba(0,0,0,.5);
@@ -114,6 +114,7 @@
 .gallery-item:hover {cursor: pointer;}
 
 
+/* Responsive gallery layout */
 @media (max-width: 1200px) {
     /* Json Gallery */
     .img-thumbnail, .json-thumbnail-title {
